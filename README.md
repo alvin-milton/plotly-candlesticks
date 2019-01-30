@@ -24,3 +24,10 @@ Node script that takes currency pairs and returns a chart using Plotly charts an
 - commonJS all the thing(s)
 - Parameterize the currency Pairs
 - return other types of assets
+
+### DEPENDENCIES
+
+- axios
+- dotenv
+- fs
+- plotly
