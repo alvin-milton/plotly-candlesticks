@@ -7,6 +7,9 @@ Node script that takes currency pairs and returns a chart using Plotly charts an
 
 ### HOW TO RUN
 
+- go to: [AlphaVantage](https://www.alphavantage.co/) and sign up for an api key
+- go to: [Plotly](https://plot.ly/) and sign up for an api key
+- create a .env file in the root and add the keys there
 - run `npm i`
 - run `npm start`
 
