@@ -1,7 +1,7 @@
 const config = require('./config')
 const fs = require('fs')
 const axios = require('axios')
-const plotly = require('plotly')('thehandiest', config.PLOTLY_KEY)
+const plotly = require('plotly')(config.PLOTLY_USER_NAME, config.PLOTLY_KEY)
 const FROMCURRENCY = 'CAD'
 const TOCURRENCY = 'USD'
 
