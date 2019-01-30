@@ -1,0 +1,30 @@
+{
+  "name": "plotly_candlestick_charts",
+  "version": "1.0.0",
+  "description": "Node script that takes currency pairs and returns a chart using Plotly charts and AlphaVantage data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Alvin Milton",
+    "email": "al@thehandiest.com",
+    "url": "https://thehandiest.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvin-milton/plotly-candlesticks.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvin-milton/plotly-candlesticks/issues"
+  },
+  "homepage": "https://github.com/alvin-milton/plotly-candlesticks/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "fs": "0.0.1-security",
+    "plotly": "^1.0.6"
+  }
+}
