@@ -67,12 +67,13 @@ axios.get(jsobjpath)
 
     let d = [trace];
     let layout = {}
+    let marginSize = 10
     layout.dragmode = 'zoom';
     layout.margin = {
-      r: 10,
-      l: 10,
-      t: 10,
-      b: 10
+      r: marginSize,
+      l: marginSize,
+      t: marginSize,
+      b: marginSize
     }
     layout.showlegend = false
     layout.xaxis = {
@@ -86,7 +87,7 @@ axios.get(jsobjpath)
     layout.yaxis = {
       autorange: true,
       domain: [0, 1],
-      range: [114.609999778, 137.410004222],
+      range: [Math.min.apply(null, lowArr), Math.max.apply(null, highArr)],
       type: 'linear'
     }
     let graphOptions = {}
