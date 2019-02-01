@@ -4,7 +4,7 @@
   "description": "Node script that takes currency pairs and returns a chart using Plotly charts and AlphaVantage data",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": {
@@ -25,6 +25,7 @@
     "axios": "^0.18.0",
     "dotenv": "^6.2.0",
     "fs": "0.0.1-security",
+    "jshint": "^2.9.7",
     "plotly": "^1.0.6"
   }
 }
