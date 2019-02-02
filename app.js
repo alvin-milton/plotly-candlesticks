@@ -1,2 +1,2 @@
 // easy peasy!
-const chartIt = require('./src/index')('EUR', 'USD');
+const chartIt = require('./src/index')('JPY', 'USD');
