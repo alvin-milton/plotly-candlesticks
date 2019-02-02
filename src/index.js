@@ -13,7 +13,7 @@ const CHARTIT = (FROMCURRENCY, TOCURRENCY) => {
     .then(function (data) {
       let arr = Object.keys(data).map(function (key) {
         return [key, data[key]];
-      })
+      });
       let timeSeriesMeta = arr[0];
       let timeSeriesTitle = arr[1][0];
       let timeSeriesObj = arr[1][1];
@@ -21,7 +21,7 @@ const CHARTIT = (FROMCURRENCY, TOCURRENCY) => {
       // have to reverse array, data returns with recent at 0 index
       let timeSeries = Object.keys(timeSeriesObj).slice(0).reverse().map(function (key) {
         return [key, timeSeriesObj[key]];
-      })
+      });
       let dateArr = [];
       let dateTimeArr = [];
       let openArr = [];
@@ -37,7 +37,7 @@ const CHARTIT = (FROMCURRENCY, TOCURRENCY) => {
         highArr.push(parseFloat(item[1]['2. high'], 10));
         lowArr.push(parseFloat(item[1]['3. low'], 10));
         closeArr.push(parseFloat(item[1]['4. close'], 10));
-      })
+      });
       // console.log('dateTimeArr', dateTimeArr)
       // console.log('dateArr', dateArr)
       // console.log('openArr', openArr)
@@ -119,6 +119,6 @@ const CHARTIT = (FROMCURRENCY, TOCURRENCY) => {
     .catch(function (error) {
       console.log(error);
     });
-}
+};
 
 module.exports = CHARTIT;
