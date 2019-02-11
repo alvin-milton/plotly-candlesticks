@@ -11,7 +11,7 @@ Node script that takes currency pairs and returns a chart using Plotly charts an
 - go to: [Plotly](https://plot.ly/) and sign up for an api key
 - create a .env file in the root and add the keys there
 - run `npm i`
-- run `npm start`
+- run `npm start` which indirectly calls `handyCharts.getPic('GBP', 'USD');`
 
 ## Goals
 
