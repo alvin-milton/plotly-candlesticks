@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/alvin-milton/plotly-candlesticks/",
   "dependencies": {
-    "axios": "^0.18.0",
-    "dotenv": "^6.2.0",
-    "fs": "0.0.1-security",
-    "jshint": "^2.9.7",
+    "axios": "^0.19.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.2",
+    "jshint": "^2.11.0",
     "plotly": "^1.0.6"
   }
 }
